@@ -1,0 +1,58 @@
+body { 
+  background-color:rgb(199, 224, 252) 
+}
+nav{
+  background-color: rgb(133, 154, 177) 
+}
+h1{
+  color: rgb(199, 224, 252) ;
+  margin-left: 3%;
+  display: inline-block;
+  line-height: 4rem;
+}
+a{
+  color: black;
+}
+li{
+  margin-left: 12%;
+  display: inline-block;
+  text-decoration: none;
+}
+.h2Slogan{
+  margin-top: 3%;
+  text-align: center;
+  color: rgb(133, 154, 177)
+}
+#wrapper {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5%;
+}
+#articles {
+  display: inline-block;
+  overflow: auto;
+  width: 60%;
+  height: 400px;
+}
+#selectedArticle{
+  text-decoration-line: underline;
+}
+#notes {
+  top: 3;
+  float: right;
+  width: 30%;
+}
+textarea, input {
+  display: block;
+  width: 100%;
+  background-color: whitesmoke;
+}
+input {
+  height: 36px;
+  font-size: 24px;
+}
+textarea {
+  height: 200px;
+  font-size: 18px;
+}
