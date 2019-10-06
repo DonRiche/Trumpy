@@ -14,6 +14,7 @@ a{
   color: black;
 }
 li{
+  cursor: pointer;
   margin-left: 12%;
   display: inline-block;
   text-decoration: none;
@@ -23,9 +24,14 @@ li{
   text-align: center;
   color: rgb(133, 154, 177)
 }
+p{
+  cursor: pointer;
+  background-color: rgb(133, 154, 177);
+  color: rgb(199, 224, 252);
+}
 #wrapper {
   width: 960px;
-  margin-left: auto;
+  margin-left: 0%;
   margin-right: auto;
   padding-top: 5%;
 }
@@ -39,9 +45,11 @@ li{
   text-decoration-line: underline;
 }
 #notes {
-  top: 3;
   float: right;
-  width: 30%;
+  width: 36%;
+}
+#textId{
+  font-size: .90rem;
 }
 textarea, input {
   display: block;
